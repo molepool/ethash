@@ -400,7 +400,7 @@ type Ethash struct {
 }
 
 // New creates an instance of the proof of work.
-func New() *Ethash {
+func NewEthash() *Ethash {
 	return &Ethash{new(Light), &Full{turbo: true}}
 }
 
